@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #7159C1;
+}
+
+.container {
+  /* grid-template-rows: 20vh 70vh 10vh;
+  grid-template-columns: 3fr 1fr; */ 
+  
+  /*
+    Usamos o grid-template como atalho para
+    grid-template-rows/grid-template-columns
+  */
+  
+  /* row-gap: 20px;
+  column-gap: 20px; */
+
+  display: grid;
+  grid-template: 20vh 70vh 10vh/3fr 1fr;
+  gap: 20px;
+}
+
+header {
+  background-color: yellow;
+  height: 100px;
+}
+
+main {
+  background-color: blue;
+  height: 100px;
+}
+
+aside {
+  background-color: green;
+  height: 100px;
+}
+
+footer {
+  background-color: red;
+  height: 100px;
+}
